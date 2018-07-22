@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_solo/api_test/MediaQuery_test.dart';
 import 'package:flutter_solo/my_app.dart';
+import 'package:flutter_solo/project/planets/ui/home/home_page.dart';
 import 'package:flutter_solo/solo/basic_widgets.dart';
 import 'package:flutter_solo/solo/gestures.dart';
 import 'package:flutter_solo/solo/hello_flutter.dart';
@@ -51,12 +53,42 @@ import 'package:flutter_solo/little_project/randow_word_test.dart';
 //    )
 //);
 
+/// This is a demo project of random word list.
+//void main() => runApp(
+//  new MaterialApp(
+//    title: 'test',
+//    home: RandomWords(),
+//  )
+//);
+
 void main() => runApp(
-  new MaterialApp(
-    title: 'test',
-    home: RandomWords(),
-  )
+    new MaterialApp(
+      title: 'Planets',
+      // This is a demo project of Planets.
+      home: PlanetsApp(),
+    )
 );
+
+
+
+
+
+
+
+
+
+
+
+
+// Below is API test
+/*void main() => runApp(
+    new MaterialApp(
+      title: 'API test',
+      home: MediaQueryTest(),
+    )
+);*/
+
+
 
 
 
